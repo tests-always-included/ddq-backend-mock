@@ -4,7 +4,7 @@
     "url": "https://github.com/tests-always-included/ddq-backend-mock/issues"
   },
   "dependencies": {
-    "ddq": "git://github.com/AbsentSemicolon/ddq.git#release-1",  
+    "ddq": "git://github.com/AbsentSemicolon/ddq.git#release-1" 
   },
   "description": "DeDuplicated Queue Backend Mock",
   "devDependencies": {
