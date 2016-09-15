@@ -1,0 +1,29 @@
+{
+  "author": "Christopher Tetreault",
+  "bugs": {
+    "url": "https://github.com/tests-always-included/ddq-backend-mock/issues"
+  },
+  "dependencies": {
+    "ddq": "git://github.com/AbsentSemicolon/ddq.git#release-1",  
+  },
+  "description": "DeDuplicated Queue Backend Mock",
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/tests-always-included/ddq-backend-mock#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "ddq-backend-mock",
+  "private": false,
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tests-always-included/ddq-backend-mock.git"
+  },
+  "scripts": {
+    "test": "istanbul cover jasmine --captureExceptions spec/ && codecov && eslint .",
+    "watch": "jasmine-node lib spec --autotest --watch"
+  },
+  "version": "1.0.0"
+}
