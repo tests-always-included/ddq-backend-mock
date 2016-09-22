@@ -8,6 +8,7 @@
   },
   "description": "DeDuplicated Queue Backend Mock",
   "devDependencies": {
+    "eslint": "^2.10.2"
   },
   "engines": {
     "node": "*"
@@ -22,8 +23,7 @@
       "url": "git+https://github.com/tests-always-included/ddq-backend-mock.git"
   },
   "scripts": {
-    "test": "istanbul cover jasmine --captureExceptions spec/ && codecov && eslint .",
-    "watch": "jasmine-node lib spec --autotest --watch"
+    "test": "eslint ."
   },
   "version": "1.0.0"
 }
