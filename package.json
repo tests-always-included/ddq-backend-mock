@@ -5,7 +5,7 @@
     },
     "description": "DeDuplicated Queue Backend Mock",
     "devDependencies": {
-        "eslint": "^2.10.2"
+        "eslint": "^3.6.1"
     },
     "engines": {
         "node": ">=4"
