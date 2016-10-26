@@ -1,31 +1,31 @@
 {
-  "author": "Christopher Tetreault",
-  "bugs": {
-    "url": "https://github.com/tests-always-included/ddq-backend-mock/issues"
-  },
-  "description": "DeDuplicated Queue Backend Mock",
-  "devDependencies": {
-    "eslint": "^3.6.1"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "homepage": "https://github.com/tests-always-included/ddq-backend-mock#readme",
-  "keywords": [
-    "ddq",
-    "mock",
-    "node",
-    "queue"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "name": "ddq-backend-mock",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tests-always-included/ddq-backend-mock.git"
-  },
-  "scripts": {
-    "test": "eslint ."
-  },
-  "version": "1.0.2"
+    "author": "Christopher Tetreault",
+    "bugs": {
+        "url": "https://github.com/tests-always-included/ddq-backend-mock/issues"
+    },
+    "description": "DeDuplicated Queue Backend Mock",
+    "devDependencies": {
+        "eslint": "^3.6.1"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "homepage": "https://github.com/tests-always-included/ddq-backend-mock#readme",
+    "keywords": [
+        "ddq",
+        "mock",
+        "node",
+        "queue"
+    ],
+    "license": "MIT",
+    "main": "lib/index.js",
+    "name": "ddq-backend-mock",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tests-always-included/ddq-backend-mock.git"
+    },
+    "scripts": {
+        "test": "eslint ."
+    },
+    "version": "1.0.3"
 }
